@@ -1,3 +1,7 @@
-r = float(input('nhap bk r: '))
-pi = 3.14
-print('Chu vi hinh tron : ', 2*pi*r)
+ds = []
+for i in range(1,6):
+    n = input(f'nhap ten nguoi thu {i}: ')
+    ds.append(n)
+print(ds)
+ds.pop(1)
+print(ds)

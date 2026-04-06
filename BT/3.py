@@ -1,15 +1,5 @@
-class Book:
-    def __init__(self, name, price):
-        self._name = name
-        self._price = price
-    def get_name(self):
-        return self._name
-    def get_price(self):
-        return self._price
-    def set_name(self, name):
-        self._name = name
-    def set_price(self, price):
-        self._price = price
-n = Book('truyen ma', 50000)
-print(n.get_name())
-print(n.get_price())
+with open('ds.txt','a',encoding='utf-8') as file:
+    file.write('book1;30000\n')
+    file.write('book2;50000\n')
+    file.write('book3;100000\n')
+    file.write('tong;900000\n')
